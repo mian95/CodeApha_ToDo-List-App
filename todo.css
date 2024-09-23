@@ -138,3 +138,94 @@ hr {
         transform: scale(1.05);
         box-shadow: inset 1em 1em var(--form-control-color);
     }}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .box {
+    padding: 10px 5px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .input-form {
+    gap: 10px;
+    padding: 5px;
+  }
+
+  .label {
+    font-size: 20px;
+  }
+
+  .input-form div {
+    margin: 5px 0;
+  }
+
+  .input-form .input-text {
+    padding: 10px 15px;
+    min-width: 200px;
+  }
+
+  .input-form .input-btn {
+    padding: 10px 15px;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  .task-box {
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  .task-box li {
+    padding: 0 10px;
+    flex-direction: column;
+  }
+
+  .task-box li div {
+    gap: 10px;
+    padding: 0;
+  }
+
+  .task-box li div p {
+    font-size: 14px;
+  }
+
+  .task-box button {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .box {
+    padding: 5px;
+  }
+
+  .label {
+    font-size: 18px;
+  }
+
+  .input-form .input-text {
+    padding: 8px 10px;
+    min-width: 150px;
+  }
+
+  .input-form .input-btn {
+    padding: 8px 10px;
+  }
+
+  .task-box li {
+    padding: 0;
+  }
+
+  .task-box li div p {
+    font-size: 12px;
+  }
+}
